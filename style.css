@@ -1,0 +1,27 @@
+#grille{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    background-color: lightblue;
+    border: 3px solid black;
+}
+
+.case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% / 3 - 2px);
+    width: calc(100% / 3 - 2px);
+    border: 1px solid black;
+    font-size: 5rem;
+}
+
+.bottom{
+    display: flex;
+    width: 400px;
+}
+
+#player{
+
+}
