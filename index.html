@@ -10,27 +10,30 @@
 <body>
     <h1>TIC TAC TOE</h1>
 
-    <div id="grille">
+    <main>
+        <p id="message">Le joueur X commence !</p>
+        <div id="grille">
 
-        <div id="case1" class="case">X</div>
-        <div id="case2" class="case"></div>
-        <div id="case3" class="case">O</div>
-
-
-        <div id="case4" class="case"></div>
-        <div id="case5" class="case"></div>
-        <div id="case6" class="case"></div>
+            <div id="case0" class="case"></div>
+            <div id="case1" class="case"></div>
+            <div id="case2" class="case"></div>
 
 
-        <div id="case7" class="case"></div>
-        <div id="case8" class="case"></div>
-        <div id="case9" class="case"></div>
-    </div>
+            <div id="case3" class="case"></div>
+            <div id="case4" class="case"></div>
+            <div id="case5" class="case"></div>
 
-    <div class="bottom">
-        <button id="start">Start</button>
-        <p id="player">Le joueur X commence !</p>
-    </div>
+
+            <div id="case6" class="case"></div>
+            <div id="case7" class="case"></div>
+            <div id="case8" class="case"></div>
+        </div>
+        <div class="startPoint">
+            <button id="start">Start</button>
+        </div>
+        
+
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/tictactoe.js"></script>

@@ -1,8 +1,33 @@
+h1 {
+    font-size: 3rem;
+    color: blue;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#message{
+    height: 80px;
+    font-size: 1.3rem;
+    color: green;
+}
+
+#OX {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
 #grille{
     display: flex;
     flex-wrap: wrap;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     background-color: lightblue;
     border: 3px solid black;
 }
@@ -14,14 +39,31 @@
     height: calc(100% / 3 - 2px);
     width: calc(100% / 3 - 2px);
     border: 1px solid black;
-    font-size: 5rem;
+    font-size: 8rem;
 }
 
-.bottom{
+.startPoint{
     display: flex;
-    width: 400px;
+    justify-content: center;
+    position: relative;
+    width: 200px;
 }
 
-#player{
-
+#start{
+    position: absolute;
+    top: -300px;
+    width: auto;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid gray;
+    background-color: lightslategray;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding: 10px;
 }
+
+#start:hover{
+    border: 2px solid lightslategray;
+    background-color: gray;
+}
+
